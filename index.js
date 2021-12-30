@@ -38,55 +38,55 @@ var detik = date.getSeconds();
 var waktoo = date.getHours();
 
 switch(hari) {
-case 0: hari = 'Minggu'; break;
-case 1: hari = 'Senin'; break;
-case 2: hari = 'Selasa'; break;
-case 3: hari = 'Rabu'; break;
-case 4: hari = 'Kamis'; break;
-case 5: hari = 'Jum`at'; break;
-case 6: hari = 'Sabtu'; break;
+case 0: hari = 'Sunday'; break;
+case 1: hari = 'Monday'; break;
+case 2: hari = 'Tuesday'; break;
+case 3: hari = 'Wednesday'; break;
+case 4: hari = 'Thursday'; break;
+case 5: hari = 'Friday'; break;
+case 6: hari = 'Saturday'; break;
 }
 
 switch(bulan1) { 
-case 0: bulan1 = 'kurruari'; break;
-case 1: bulan1 = 'Februari'; break; 
-case 2: bulan1 = 'Maret'; break;
+case 0: bulan1 = 'January'; break;
+case 1: bulan1 = 'February'; break; 
+case 2: bulan1 = 'March'; break;
 case 3: bulan1 = 'April'; break;
-case 4: bulan1 = 'Mei'; break;
-case 5: bulan1 = 'Juni'; break;
-case 6: bulan1 = 'Juli'; break;
-case 7: bulan1 = 'Agustus'; break;
+case 4: bulan1 = 'May'; break;
+case 5: bulan1 = 'June'; break;
+case 6: bulan1 = 'July'; break;
+case 7: bulan1 = 'August'; break;
 case 8: bulan1 = 'September'; break;
-case 9: bulan1 = 'Oktober'; break; 
+case 9: bulan1 = 'October'; break; 
 case 10: bulan1 = 'November'; break;
-case 11: bulan1 = 'Desember'; break; 
+case 11: bulan1 = 'December'; break; 
 }
 
 switch(jams){
-case 0: pada = "Malem"; break;
-case 1: pada = "Malem"; break;
-case 2: pada = "Malem"; break;
-case 3: pada = "Pagi"; break;
-case 4: pada = "Pagi"; break;
-case 5: pada = "Pagi"; break;
-case 6: pada = "Pagi"; break;
-case 7: pada = "Pagi"; break;
-case 8: pada = "Pagi"; break;
-case 9: pada = "Pagi"; break;
-case 10: pada = "Pagi"; break;
-case 11: pada = "Siang"; break;
-case 12: pada = "Siang"; break;
-case 13: pada = "Siang"; break;
-case 14: pada = "Siang"; break;
-case 15: pada = "Sore"; break;
-case 16: pada = "Sore"; break;
-case 17: pada = "Sore"; break;
-case 18: pada = "Malem"; break;
-case 19: pada = "Malem"; break;
-case 20: pada = "Malem"; break;
-case 21: pada = "Malem"; break;
-case 22: pada = "Malem"; break;
-case 23: pada = "Malem"; break;
+case 0: pada = "Night"; break;
+case 1: pada = "Night"; break;
+case 2: pada = "Night"; break;
+case 3: pada = "Morning"; break;
+case 4: pada = "Morning"; break;
+case 5: pada = "Morning"; break;
+case 6: pada = "Morning"; break;
+case 7: pada = "Morning"; break;
+case 8: pada = "Morning"; break;
+case 9: pada = "Morning"; break;
+case 10: pada = "Morning"; break;
+case 11: pada = "Afternoon"; break;
+case 12: pada = "Afternoon"; break;
+case 13: pada = "Afternoon"; break;
+case 14: pada = "Afternoon"; break;
+case 15: pada = "Evening"; break;
+case 16: pada = "Evening"; break;
+case 17: pada = "Evening"; break;
+case 18: pada = "Night"; break;
+case 19: pada = "Night"; break;
+case 20: pada = "Night"; break;
+case 21: pada = "Night"; break;
+case 22: pada = "Night"; break;
+case 23: pada = "Night"; break;
 }
 
 var tampilHari = '' + hari + ', ' + tanggal + ' ' + bulan1 + ' ' + tahun; 
@@ -134,25 +134,25 @@ const starts = async (sibuBot = new WAConnection()) => {
 	sibuBot.logger.level = 'warn'
 	sibuBot.version = [2, 2143, 3]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
-	console.log(color(figlet.textSync('Sibu Bot', {
+	console.log(color(figlet.textSync('Rio Riyaz', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Sibu ','silver'))
-console.log(color('> GITHUB: Sibuuu07 ','silver'))
-console.log(color('> WA NUMBER: +919337956094 ','silver'))
-console.log(color('  Sibu Bot Inc. 2021','mediumseagreen'))
-	sibuBot.browserDescription = [ 'Subscribe Sibu', 'ubuntu', '3.0' ]
+	console.log(color('\n> YT CHANNEL: riyazlovea ','silver'))
+console.log(color('> GITHUB: riohek5 ','silver'))
+console.log(color('> WA NUMBER: +918007502988 ','silver'))
+console.log(color('  Rio Riyaz 2021','mediumseagreen'))
+	sibuBot.browserDescription = [ 'Subscribe Rio Riyaz', 'ubuntu', '3.0' ]
 
 	sibuBot.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN THE QR'))
 })
 	sibuBot.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(sibuBot.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Sibu Bot Loading...')
+		info('2', 'Rio Riyaz Bot Loading...')
 	})
 	fs.existsSync('./session.json') && sibuBot.loadAuthInfo('./session.json')
 	sibuBot.on('connecting', () => {
@@ -213,7 +213,7 @@ sibuBot.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "919337956084@s.whatsapp.net"
+    const htod = "918007502988@s.whatsapp.net"
 
     
 
@@ -400,8 +400,8 @@ sibuBot.on('group-update', async (anu) => {
 	})
     sibuBot.on('chat-update', async (message) => {
         require('./XeonDoge.js')(sibuBot, message)
-        ownerNumber = ["919337956084@s.whatsapp.net","919337956084@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "919337956084@s.whatsapp.net"
+        ownerNumber = ["918007502988@s.whatsapp.net","918007502988@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "91800750299@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
