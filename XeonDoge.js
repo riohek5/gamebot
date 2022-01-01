@@ -107,7 +107,7 @@ const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "💌HINDI SMS BOT💌";
+fake = "🎮Rio GAME BOT🎮";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
@@ -370,30 +370,30 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 			var ase = new Date();
                         var jamss = ase.getHours();
                          switch(jamss){
-                case 0: jamss = "💌HINDI SMS BOT💌"; break;
-                case 1: jamss = "💌HINDI SMS BOT💌"; break;
-                case 2: jamss = "💌HINDI SMS BOT💌"; break;
-                case 3: jamss = "💌HINDI SMS BOT💌"; break;
-                case 4: jamss = "💌HINDI SMS BOT💌"; break;
-                case 5: jamss = "💌HINDI SMS BOT💌"; break;
-                case 6: jamss = "💌HINDI SMS BOT💌"; break;
-                case 7: jamss = "💌HINDI SMS BOT💌"; break;
-                case 8: jamss = "💌HINDI SMS BOT💌"; break;
-                case 9: jamss = "💌HINDI SMS BOT💌"; break;
-                case 10: jamss = "💌HINDI SMS BOT💌"; break;
-                case 11: jamss = "💌HINDI SMS BOT💌"; break;
-                case 12: jamss = "💌HINDI SMS BOT💌"; break;
-                case 13: jamss = "💌HINDI SMS BOT💌"; break;
-                case 14: jamss = "💌HINDI SMS BOT💌"; break;
-                case 15: jamss = "💌HINDI SMS BOT💌"; break;
-                case 16: jamss = "💌HINDI SMS BOT💌"; break;
-                case 17: jamss = "💌HINDI SMS BOT💌"; break;
-                case 18: jamss = "💌HINDI SMS BOT💌"; break;
-                case 19: jamss = "💌HINDI SMS BOT💌"; break;
-                case 20: jamss = "💌HINDI SMS BOT💌"; break;
-                case 21: jamss = "💌HINDI SMS BOT💌"; break;
-                case 22: jamss = "💌HINDI SMS BOT💌"; break;
-                case 23: jamss = "💌HINDI SMS BOT💌"; break;
+                case 0: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 1: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 2: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 3: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 4: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 5: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 6: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 7: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 8: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 9: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 10: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 11: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 12: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 13: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 14: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 15: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 16: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 17: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 18: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 19: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 20: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 21: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 22: jamss = "🎮Rio GAME BOT🎮"; break;
+                case 23: jamss = "🎮Rio GAME BOT🎮"; break;
             }
             var tampilUcapan = "" + jamss;
             const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
@@ -716,7 +716,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*💌HINDI SMS BOT💌*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*🎮Rio GAME BOT🎮*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -729,7 +729,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*💌HINDI SMS BOT💌*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*🎮Rio GAME BOT🎮*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -779,7 +779,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:💌HINDI SMS BOT💌 Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:🎮Rio GAME BOT🎮 Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -793,7 +793,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `💌HINDI SMS BOT💌`,body:"HORNY = BONK",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/919337956084`}}})
+			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `🎮Rio GAME BOT🎮`,body:"HORNY = BONK",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/919337956084`}}})
 		}
 		const simir = (teks) => {
 			alpha.sendMessage(from, teks, text, { quoted:ftex })
@@ -1116,7 +1116,7 @@ if (!settings.autoread) {
 alpha.chatRead(from)
 }
 if (budy.startsWith('bot')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*💌HINDI SMS BOT💌*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*🎮Rio GAME BOT🎮*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
 reply('https://github.com/riohek5')
@@ -1231,12 +1231,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `💌HINDI SMS BOT💌 Developer`,
+"displayName": `🎮Rio GAME BOT🎮 Developer`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Owner\nEND:VCARD`
 })
 }
 alpha.sendMessage(from, {
-"displayName": `💌HINDI SMS BOT💌 Developer`,
+"displayName": `🎮Rio GAME BOT🎮 Developer`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -1250,7 +1250,7 @@ NOTE : _DO NOT SELL BOT SCRIPT_
 *👇FOLLOW ME LINK👇*
 https://www.instagram.com/rio.riyaz1/
 _BASE : Rio Riyaz_
-_ORI SCRIPT : 💌HINDI SMS BOT💌_
+_ORI SCRIPT : 🎮Rio GAME BOT🎮_
 _OWNER : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
