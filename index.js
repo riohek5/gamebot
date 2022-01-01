@@ -305,7 +305,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				teks = `😎 *Hɪ* @${num.split('@')[0]}\n😎 *Bɪᴏ* : *${thu.status}*\n😎 *Mᴇᴍʙᴇʀs : ${memeg}*\n😎 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n😎 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
-				sendButImage(anu.jid, teks, `𝐒𝐢𝐛𝐮 𝐁𝐨𝐭`, img,but = [{buttonId:`getdesc`, 
+				sendButImage(anu.jid, teks, `Rio Riyaz`, img,but = [{buttonId:`getdesc`, 
 
                buttonText:{displayText: 'GET DESC'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -327,7 +327,7 @@ sibuBot.on('group-participants-update', async (anu) => {
 
 				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 😎`
 
-				sendButImage(anu.jid, teks, `𝐒𝐢𝐛𝐮 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `Rio Riyaz`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
