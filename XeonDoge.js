@@ -1176,6 +1176,52 @@ reply('https://github.com/riohek5')
 				}
         switch (command) {
         	
+        	
+        	
+        	case 'gamelist':
+if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
+stamtus = `❏ 「 \`\`\`GAMES LIST\`\`\` 」
+────────────────────
+😎 ${prefix}dice
+😎 ${prefix}ttt/tictactoe
+😎 ${prefix}delttt
+😎 ${prefix}slot
+😎 ${prefix}suit
+
+❏ 「 \`\`\`OTHER LIST\`\`\` 」
+────────────────────
+😎 ${prefix}test
+😎 ${prefix}rentbot
+😎 ${prefix}listbot
+😎 ${prefix}owner
+😎 ${prefix}script
+😎 ${prefix}donate
+😎 ${prefix}runtime
+😎 ${prefix}ping
+😎 ${prefix}tobc
+😎 ${prefix}status
+😎 ${prefix}chat
+😎 ${prefix}delete
+😎 ${prefix}tospam
+😎 ${prefix}setprefix
+
+────────────────────`
+buttons = [
+{buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT🔖'},type:1},
+{buttonId:`owner`, buttonText: {displayText: 'BOT OWNER👤'}, type: 1}
+]
+const grup = {
+    contentText: `${stamtus}`,
+    footerText: `_error or bug please report to owner_\n_bot in development_\n_sorry if the features are incomplete_`,
+    buttons: buttons,
+    headerType: 1
+}
+await alpha.sendMessage(from, grup, MessageType.buttonsMessage, {quoted: ftex})
+		break
+        	
+        	
+        	
+        	
 case 'test':
 reply(`BOT WAS ONLINE BEFORE YOUR BIRTH😏`)
 break
@@ -1320,13 +1366,19 @@ gilir = player2
 ky_ttt.push({player1,player2,id,angka,gilir})
 alpha.sendMessage(from, `*🎳 Starting a TicTacToe Game 🎲*
 
-[@${player2.split('@')[0]}] Challenge you to be the opponent of the Game🔥
-Type Y/N to accept or reject the game
+[@${player2.split('@')[0]}]
+आपको गेम का विरोधी बनने के लिए
 
-Type ${prefix}delttc , To reset the game in the group!`, text, {contextInfo: {mentionedJid: [player2]}})
+[@${player1.split('@')[0]}]
+इन्होंने चुनौती दी है🔥
+
+ गेम को स्वीकार करने के लिए *Y* टाइप करें
+गेम को अस्वीकार करने के लिए *N* टाइप करें
+
+ ग्रुप में गेम को रीसेट करने के लिए ${prefix}delttt टाइप करें!`, text, {contextInfo: {mentionedJid: [player2]}})
 break
                 case 'delttt':
-                case 'delttc':
+                
 
 if (!isGroup) return reply(mess.only.group)
 if (!isTTT) return reply('There are no games in this group')
@@ -1334,6 +1386,12 @@ naa = ky_ttt.filter(toek => !toek.id.includes(from))
 ky_ttt = naa 
 reply('Success')
 break
+
+
+
+
+
+
 				
 				
 				case 'dice':
