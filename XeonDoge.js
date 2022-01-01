@@ -1294,7 +1294,7 @@ anu = `──────────────────
 NOTE : _DO NOT SELL BOT SCRIPT_
 ──────────────────
 *👇FOLLOW ME LINK👇*
-https://www.instagram.com/rio.riyaz1/
+https://www.instagram.com/rio.riyaz1
 _BASE : Rio Riyaz_
 _ORI SCRIPT : 🎮Rio GAME BOT🎮_
 _OWNER : ${NamaOwner}_
@@ -1354,9 +1354,9 @@ await alpha.sendMessage(from, donatt, MessageType.buttonsMessage, {quoted: ftex}
 case 'ttt':
 
 if (!isGroup) return reply(mess.only.group)
-if (args.length < 1) return reply('Tag Your Opponent! ')
-if (isTTT) return reply('There is a game in this group, please wait')
-if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag the opponents target!')
+if (args.length < 1) return reply('दोस्त को @ से tag करे!')
+if (isTTT) return reply('इस ग्रुप में एक गेम चल रहा है, कृपया प्रतीक्षा करें')
+if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('दोस्त को @ से tag करे!')
 ment = mek.message.extendedTextMessage.contextInfo.mentionedJid
 player1 = sender
 player2 = ment[0]
@@ -1368,7 +1368,6 @@ alpha.sendMessage(from, `*🎳 Starting a TicTacToe Game 🎲*
 
 [@${player2.split('@')[0]}]
 आपको गेम का विरोधी बनने के लिए
-
 [@${player1.split('@')[0]}]
 इन्होंने चुनौती दी है🔥
 
@@ -1379,19 +1378,12 @@ alpha.sendMessage(from, `*🎳 Starting a TicTacToe Game 🎲*
 break
                 case 'delttt':
                 
-
 if (!isGroup) return reply(mess.only.group)
-if (!isTTT) return reply('There are no games in this group')
+if (!isTTT) return reply('इस ग्रुप में कोई खेल चालु नहीं है')
 naa = ky_ttt.filter(toek => !toek.id.includes(from)) 
 ky_ttt = naa 
-reply('Success')
+reply('पुराना खेल हटा दिया गया है 👍')
 break
-
-
-
-
-
-
 				
 				
 				case 'dice':
