@@ -1369,10 +1369,10 @@ alpha.sendMessage(from, `*🎳 Starting a TicTacToe Game 🎲*
 [@${player2.split('@')[0]}]
 आपको गेम का विरोधी बनने के लिए चुनौती दी है🔥
 
- गेम को स्वीकार करने के लिए *Y* टाइप करें
+गेम को स्वीकार करने के लिए *Y* टाइप करें
 गेम को अस्वीकार करने के लिए *N* टाइप करें
 
- ग्रुप में गेम को रीसेट करने के लिए *${prefix}delttt* टाइप करें!`, text, {contextInfo: {mentionedJid: [player2]}})
+ग्रुप में गेम को रीसेट करने के लिए *${prefix}delttt* टाइप करें!`, text, {contextInfo: {mentionedJid: [player2]}})
 break
                 case 'delttt':
                 
@@ -1607,7 +1607,7 @@ tto = ky_ttt.filter(ghg => ghg.id.includes(from))
 tty = tto[0]
 naa = ky_ttt.filter(toek => !toek.id.includes(from)) 
 ky_ttt = naa
-alpha.sendMessage(from, `Yah @${tty.player2.split('@')[0]} Reject:(`,text,{quoted:mek,contextInfo:{mentionedJid:[tty.player2]}})
+alpha.sendMessage(from, `ओहो @${tty.player2.split('@')[0]} यह आपके साथ गेम खेलना नहीं चाहते गेम रिजेक्ट कर दिया है:(`,text,{quoted:mek,contextInfo:{mentionedJid:[tty.player2]}})
 }
 }
 
