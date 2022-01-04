@@ -1179,7 +1179,7 @@ reply('https://github.com/riohek5')
         	
         	
         	case 'gamelist':
-if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
+
 stamtus = `❏ 「 \`\`\`GAMES LIST\`\`\` 」
 ────────────────────
 😎 ${prefix}dice
