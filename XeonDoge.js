@@ -1187,6 +1187,7 @@ stamtus = `❏ 「 \`\`\`GAMES LIST\`\`\` 」
 😎 ${prefix}delttt
 😎 ${prefix}slot
 😎 ${prefix}suit
+😎 ${prefix}magic
 
 ❏ 「 \`\`\`OTHER LIST\`\`\` 」
 ────────────────────
