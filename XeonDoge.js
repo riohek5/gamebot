@@ -1615,9 +1615,9 @@ alpha.sendMessage(from, `ओहो @${tty.player2.split('@')[0]} यह आप�
 if (isTTT && isPlayer1){
 nuber = parseInt(budy)
 if (isNaN(nuber)) return
-if (nuber < 1 || nuber > 9) return reply('Enter Numbers Correctly')
+if (nuber < 1 || nuber > 9) return reply('नंबर सही दर्ज करें')
 main = ky_ttt.filter(hjh => hjh.id.includes(from)) 
-if (!tttawal.includes(main[0].angka[nuber])) return reply('Its already filled, the other contents, bro')
+if (!tttawal.includes(main[0].angka[nuber])) return reply('यह नंबर पहले ही यूज़ किया है दूसरा नंबर भेजो')
 if (main[0].gilir.includes(sender)) return reply('आपकी बारी आने तक रुको')
 s = '❌'
 main[0].angka[nuber] = s
@@ -1634,8 +1634,8 @@ ttt = `${angka[1]}${angka[2]}${angka[3]}\n${angka[4]}${angka[5]}${angka[6]}\n${a
 ucapmenang = () => {
 ucapan1 = `🎳 *Result Game Tictactoe* 🎲
 
-*इस खेल के विजेता है* @${tty.player1.split('@')[0]}*\n`
-ucapan2 = `*🎳Result Game Tictactoe 🎲*
+*इस खेल के विजेता है @${tty.player1.split('@')[0]}*\n`
+ucapan2 = `🎳 *Result Game Tictactoe* 🎲
 
 *The final result:*
 
@@ -1689,9 +1689,9 @@ ${ttt}
 if (isTTT && isPlayer2){
 nuber = parseInt(budy)
 if (isNaN(nuber)) return
-if (nuber < 1 || nuber > 9) return reply('Enter Numbers Correctly')
+if (nuber < 1 || nuber > 9) return reply('नंबर सही दर्ज करें')
 main = ky_ttt.filter(hjh => hjh.id.includes(from)) 
-if (!tttawal.includes(main[0].angka[nuber])) return reply('Its already filled, the other contents, bro')
+if (!tttawal.includes(main[0].angka[nuber])) return reply('यह नंबर पहले यूज़ किया है दूसरा नंबर भेजो')
 if (main[0].gilir.includes(sender)) return reply('आपकी बारी आने तक रुको')
 s = '⭕'
 main[0].angka[nuber] = s
@@ -1706,10 +1706,10 @@ angka = tto[0].angka
 ttt = `${angka[1]}${angka[2]}${angka[3]}\n${angka[4]}${angka[5]}${angka[6]}\n${angka[7]}${angka[8]}${angka[9]}`
 
 ucapmenang = () => {
-ucapan1 = `*?? Result Game Tictactoe 🎲 *
+ucapan1 = `*?? Result Game Tictactoe* 🎲 
 
 इस खेल के विजेता है* @${tty.player2.split('@')[0]}*\n`
-ucapan2 = `*🎳 Game Tictactoe 🎲*
+ucapan2 = `🎳 *Game Tictactoe* 🎲
 
 *The final result:*
 
@@ -1732,7 +1732,7 @@ ttt.includes('5️⃣') && !
 ttt.includes('6️⃣') && ! ttt.includes('7️⃣') && ! ttt.includes('8️⃣') && ! ttt.includes('9️⃣')){
 ucapan1 = `*🎳Result Game Tictactoe 🎲*
 
-*_Series Games🗿👌*`
+*_खेल बराबरी में खत्म हुआ🗿👌*`
 ucapan2 = `*🎳 Result Game Tictactoe 🎲*
 
 *The final result:*
