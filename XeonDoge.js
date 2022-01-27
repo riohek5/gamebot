@@ -1600,7 +1600,7 @@ ${angka[1]}${angka[2]}${angka[3]}
 ${angka[4]}${angka[5]}${angka[6]}
 ${angka[7]}${angka[8]}${angka[9]}
 
-Turn = @${tty.player1.split('@')[0]}`
+आपकी बारी = @${tty.player1.split('@')[0]}`
   alpha.sendMessage(from, ucapan, text, {quoted: mek, contextInfo:{mentionedJid: [tty.player1,tty.player2]}})
   }
 if (budy.startsWith('N')){
@@ -1632,9 +1632,9 @@ angka = tto[0].angka
 ttt = `${angka[1]}${angka[2]}${angka[3]}\n${angka[4]}${angka[5]}${angka[6]}\n${angka[7]}${angka[8]}${angka[9]}`
 
 ucapmenang = () => {
-ucapan1 = `*🎳Result Game Tictactoe 🎲
+ucapan1 = `🎳 *Result Game Tictactoe* 🎲
 
-*Yeyyy Game Won By *@${tty.player1.split('@')[0]}*\n`
+*इस खेल के विजेता है* @${tty.player1.split('@')[0]}*\n`
 ucapan2 = `*🎳Result Game Tictactoe 🎲*
 
 *The final result:*
@@ -1666,7 +1666,7 @@ ttt.includes('5️⃣') && !
 ttt.includes('6️⃣') && ! ttt.includes('7️⃣') && ! ttt.includes('8️⃣') && ! ttt.includes('9️⃣')){
 ucapan1 = `*🎳 Result Game Tictactoe 🎲*
 
-*_Series Games 🗿👌_*`
+*_खेल बराबरी में खत्म हुआ 🗿👌_*`
 ucapan2 = `*🎳 Result Game Tictactoe 🎲*
 
 *The final result:*
@@ -1683,7 +1683,7 @@ Player1 @${tty.player1.split('@')[0]}=❌
 
 ${ttt}
 
-Turn = @${tty.player2.split('@')[0]}`
+आपकी बारी = @${tty.player2.split('@')[0]}`
  alpha.sendMessage(from, ucapan, text, {quoted: mek, contextInfo:{mentionedJid: [tty.player1,tty.player2]}})
 }
 if (isTTT && isPlayer2){
@@ -1706,9 +1706,9 @@ angka = tto[0].angka
 ttt = `${angka[1]}${angka[2]}${angka[3]}\n${angka[4]}${angka[5]}${angka[6]}\n${angka[7]}${angka[8]}${angka[9]}`
 
 ucapmenang = () => {
-ucapan1 = `*?? Result Game Tictactoe 🎲*
+ucapan1 = `*?? Result Game Tictactoe 🎲 *
 
-Yeyyy Game Won By *@${tty.player2.split('@')[0]}*\n`
+इस खेल के विजेता है* @${tty.player2.split('@')[0]}*\n`
 ucapan2 = `*🎳 Game Tictactoe 🎲*
 
 *The final result:*
@@ -1749,7 +1749,7 @@ Player2 @${tty.player2.split('@')[0]}=❌
 
 ${ttt}
  
-Turn = @${tty.player1.split('@')[0]}`
+आपकी बारी = @${tty.player1.split('@')[0]}`
  alpha.sendMessage(from, ucapan, text, {quoted: mek, contextInfo:{mentionedJid: [tty.player1,tty.player2]}})
  }
 	} catch (e) {
