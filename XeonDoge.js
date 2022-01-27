@@ -1618,7 +1618,7 @@ if (isNaN(nuber)) return
 if (nuber < 1 || nuber > 9) return reply('Enter Numbers Correctly')
 main = ky_ttt.filter(hjh => hjh.id.includes(from)) 
 if (!tttawal.includes(main[0].angka[nuber])) return reply('Its already filled, the other contents, bro')
-if (main[0].gilir.includes(sender)) return reply('Wait your turn bro')
+if (main[0].gilir.includes(sender)) return reply('आपकी बारी आने तक रुको')
 s = '❌'
 main[0].angka[nuber] = s
 main[0].gilir = main[0].player1
@@ -1692,7 +1692,7 @@ if (isNaN(nuber)) return
 if (nuber < 1 || nuber > 9) return reply('Enter Numbers Correctly')
 main = ky_ttt.filter(hjh => hjh.id.includes(from)) 
 if (!tttawal.includes(main[0].angka[nuber])) return reply('Its already filled, the other contents, bro')
-if (main[0].gilir.includes(sender)) return reply('Wait your turn bro')
+if (main[0].gilir.includes(sender)) return reply('आपकी बारी आने तक रुको')
 s = '⭕'
 main[0].angka[nuber] = s
 main[0].gilir = main[0].player2
