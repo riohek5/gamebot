@@ -1493,9 +1493,9 @@ break
            
 			if (args[0].startsWith('08')) return reply('Prefix number with 91')
             if (args[0].startsWith('+91')) return reply('Prefix number with 91')
-			if (args.length < 1) return reply(`Use ${prefix}chat 91xnxx|text`)
+			if (args.length < 1) return reply(`Use ${prefix}chat 91xnxx text`)
             var pc = body.slice(6)
-            var nomor = pc.split("|")[0];
+            var nomor = pc.split(" ")[0];
             var org = pc.split(" ")[1];
             alpha.sendMessage(nomor+'@s.whatsapp.net', org, MessageType.text)   
             reply(`Successfully send chat:\n${org},@${nomor}`)
