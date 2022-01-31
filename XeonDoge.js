@@ -1352,7 +1352,7 @@ await alpha.sendMessage(from, donatt, MessageType.buttonsMessage, {quoted: ftex}
 					break
         
 				case 'tictactoe':
-case 'rio:
+case 'rio':
 
 if (!isGroup) return reply(mess.only.group)
 if (args.length < 1) return reply('दोस्त को @ से tag करे!')
