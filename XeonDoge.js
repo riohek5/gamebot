@@ -1183,7 +1183,7 @@ reply('https://github.com/riohek5')
 stamtus = `❏ 「 \`\`\`GAMES LIST\`\`\` 」
 ────────────────────
 😎 ${prefix}dice
-😎 ${prefix}ttt/tictactoe
+😎 ${prefix}rio/tictactoe
 😎 ${prefix}delttt
 😎 ${prefix}slot
 😎 ${prefix}suit
