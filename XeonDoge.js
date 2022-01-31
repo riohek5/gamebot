@@ -1496,7 +1496,7 @@ break
 			if (args.length < 1) return reply(`Use ${prefix}chat 91xnxx|text`)
             var pc = body.slice(6)
             var nomor = pc.split("|")[0];
-            var org = pc.split("|")[1];
+            var org = pc.split(" ")[1];
             alpha.sendMessage(nomor+'@s.whatsapp.net', org, MessageType.text)   
             reply(`Successfully send chat:\n${org},@${nomor}`)
             break
